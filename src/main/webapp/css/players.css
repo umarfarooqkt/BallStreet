@@ -1,0 +1,117 @@
+body{
+    background-color: white;
+    font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin-bottom: auto;
+}
+
+#chartContainer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+#container{
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.selectBar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    padding-top: 50px;
+}
+
+.playerTable{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right:20px;
+    padding-left: 50px;
+    width:800px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+
+.chartTitle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
+table{
+    text-align:right;
+
+
+}
+th {
+    border: 5px solid lightgrey;
+    text-align: center;
+    padding: 8px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: red;
+    font-size: 18px;
+    background-color: #dddddd;
+
+}
+
+.number{
+    width: 50px;
+}
+
+.position{
+    width: 74%;
+}
+
+.height{
+    width: 7%;
+}
+
+td {
+    border: 5px solid lightgrey;
+    text-align: center;
+    padding: 8px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #808080;
+    font-size: 16px;
+
+}
+
+#info{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+}
+
+.line{
+    margin-left: auto;
+    margin-right: auto;
+}

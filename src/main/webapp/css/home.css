@@ -1,0 +1,92 @@
+body{
+    background-color: white;
+    font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin-bottom: auto;
+}
+
+
+
+.profile{
+    color-overlay: red;
+}
+
+#left{
+    width: 25%;
+    float: left;
+    padding: 0px;
+    height: 100%;
+    padding-top: 60px;
+
+
+}
+#bottom{
+    text-align:left;
+    padding-left: 35px;
+}
+
+
+#chartContainer {
+    box-sizing: border-box;
+
+    width: 65%;
+    float: right;
+    height: 30px;
+    background-color: #fff;
+    text-align: left;
+    margin-left: 0px;
+    padding-top: 50px;
+}
+
+#chartTitle{
+    padding-top: 350px;
+    padding-left: 480px;
+}
+
+
+
+#right{
+    width: 30%;
+    float: left;
+    text-align: left;
+    margin-left: 100px;
+}
+#right-top{
+    float: left;
+    margin-left: 100px;
+}
+
+
+
+profile:hover  {
+    color: red;
+}
+
+.worthChart {
+    float: left;
+}
+.balanceChart {
+    float: right;
+}
+
+
+#chart1{
+    float: left;
+    text-align: center;
+}
+
+#chart2{
+    float: left;
+    text-align: center;
+
+}
+#networthTitle{
+    padding-left: 70px;
+}
+
+#balanceTitle{
+    padding-left: 70px;
+}
+
+#contentArea{
+    overflow-y: hidden;
+}

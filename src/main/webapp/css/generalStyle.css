@@ -1,0 +1,151 @@
+h1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: red;
+}
+
+h2{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #808080;
+}
+
+h3{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #808080;
+}
+
+h4{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #808080;
+}
+
+h5{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #808080;
+}
+
+h6{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #808080;
+}
+
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #808080;
+    font-size: 16px;
+}
+
+.areas {
+    text-align: center;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #808080;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    display: block;
+}
+
+li {
+    float: right;
+    height: 100%;
+    padding: 33px;
+    -webkit-transition-duration: 0.4s; /* transitions */
+    display: block;
+}
+
+li:hover {
+    background-color: #4d4d4d;
+    height:100%;
+    top-margin:0;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* transitions */
+}
+
+.active {
+    background-color: #4d4d4d;
+}
+
+#main
+{
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    padding: 0px;
+}
+
+#topMenu {
+    height: 11%;
+    width: 100%;
+    background-color: #808080;
+}
+
+#sideMenu {
+    float: left;
+    height: 89%;
+    width: 15%;
+    background-color: red;
+    padding: 0px;
+}
+#contentArea {
+    float: right;
+    height: 89%;
+    width: 85%;
+    overflow-y: auto;
+    margin-top:0;
+    padding-top:0;
+}
+
+.selectedTop {
+    background-color: #4d4d4d;
+}
+
+.sideButtons {
+    background-color: red;
+    padding: 0px;
+    height: 25%;
+    width: 100%;
+    font-size: 25px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.sideButtons:hover {
+    background-color: darkred;
+
+    height: 25%;
+    width: 100%;
+    font-size: 25px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* transitions */
+}
+
+.selectedSide {
+    background-color: darkred;
+
+    height: 25%;
+    width: 100%;
+    font-size: 25px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+marquee {
+    background-color: black;
+    color: white;
+    height: 25px;
+    padding-top: 5px;
+
+    /*padding-bottom: 5px;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: fixed;
+}

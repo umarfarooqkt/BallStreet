@@ -1,0 +1,182 @@
+#marketPage {
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+.searchbar {
+    float: left;
+    padding: 20px;
+    width: 70%;
+
+
+
+
+
+}
+.navigator {
+    float: left;
+    width: 100%;
+    display: inline;
+}
+.navButton {
+    width: 100px;
+    background-color: #dddddd;
+    padding: 8px 8px 8px 8px;
+    font-size: 14px;
+
+    color: red;
+    cursor: pointer;
+    border: solid lightgrey;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navButton:hover {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: solid red;
+    padding: 8px 8px 8px 8px;
+}
+
+.marketList {
+    border-collapse: collapse;
+    width: 100%;
+}
+.topP{
+
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#topPlayers{
+    float:left;
+    text-align: left;
+    margin-left: 40px;
+    height: 20%;
+}
+
+#prevB{
+    float: left;
+    margin-left: 145px;
+    margin-top: 10px;
+}
+
+#pageNumbers{
+    float: left;
+    margin-bottom: 20px;
+}
+#nextB{
+    float: left;
+    margin-top: 10px;
+
+}
+#pages{
+    float: bottom;
+    display: inline;
+    width: 500px;
+    padding-left: 275px;
+    padding-top: 40px;
+    margin-bottom: 0px;
+
+}
+
+
+
+.navigator {
+    float: left;
+    width: 100%;
+}
+
+table{
+    border-radius: 20px;
+    -webkit-transition-duration: 0.4s; /* translations */
+}
+
+th {
+    border: 5px solid lightgrey;
+    text-align: left;
+    padding: 8px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: red;
+    font-size: 18px;
+    background-color: #dddddd;
+    -webkit-transition-duration: 0.4s; /* translations */
+}
+
+td {
+    border: 5px solid lightgrey;
+    text-align: left;
+    padding: 8px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #808080;
+    font-size: 17px;
+    -webkit-transition-duration: 0.4s; /* translations */
+}
+
+input[type=text], select {
+    width: 60%;
+    padding: 5px ;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 60%;
+    padding: 5px ;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.buyButton {
+    background-color: #dddddd;
+    padding: 8px 25px 8px 25px;
+    font-size: 14px;
+
+    color: red;
+    cursor: pointer;
+    border: solid lightgrey;
+    border-radius: 10px;
+    margin-left: 10px;
+    /*border: 1px solid dimgrey; */
+}
+
+.buyButton:hover {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: solid red;
+    padding: 8px 25px 8px 25px;
+
+
+
+}
+
+input[type=text], select {
+    width: 60%;
+    padding: 15px ;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 60%;
+    padding: 5px ;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}

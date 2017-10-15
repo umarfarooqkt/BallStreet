@@ -1,0 +1,176 @@
+#leaguePage {
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+body{
+    background-color: white;
+    font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin-bottom: auto;
+}
+
+.userList {
+    border-collapse: collapse;
+    width: 100%;
+}
+.leagueList {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table{
+    border-radius: 20px;
+    -webkit-transition-duration: 0.4s; /* translations */
+}
+th {
+    border: 5px solid lightgrey;
+    text-align: left;
+    padding: 8px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: red;
+    font-size: 18px;
+    background-color: #dddddd;
+    -webkit-transition-duration: 0.4s; /* translations */
+}
+
+td {
+    border: 5px solid lightgrey;
+    text-align: left;
+    padding: 8px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #808080;
+    font-size: 17px;
+    -webkit-transition-duration: 0.4s; /* translations */
+}
+
+.rank {
+    width: 15%;
+}
+.name {
+    width: 25%;
+}
+.members {
+    width: 10%;
+}
+.expand {
+    width: 15%;
+}
+.join {
+    width: 50%;
+}
+.standingsRow:nth-child(even) {
+    background-color: pink;
+}
+
+
+.leagueCreateButton {
+    background-color: #dddddd;
+    padding: 10px;
+    font-size: 14px;
+    border: solid #dddddd;
+    color: red;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    border-radius: 25px;
+    /*border: 1px solid dimgrey; */
+}
+
+.leagueCreateButton:hover {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: solid red;
+    /*border: 1px solid dimgrey;*/
+
+}
+
+.joinLeagueButton {
+    background-color: #dddddd;
+    padding: 8px 25px 8px 25px;
+    font-size: 14px;
+
+    color: red;
+    cursor: pointer;
+    border: solid lightgrey;
+    border-radius: 10px;
+    margin-left: 10px;
+    /*border: 1px solid dimgrey; */
+}
+
+.joinLeagueButton:hover {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: solid red;
+    padding: 8px 25px 8px 25px;
+
+
+
+}
+
+.refreshButton {
+    background-color: #dddddd;
+    padding: 10px 25px 10px 25px;
+    font-size: 14px;
+    border: solid lightgrey;
+    color: red;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* translations */
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.refreshButton:hover {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: solid red;
+
+}
+
+.viewButton {
+    align: center;
+    background-color: #dddddd;
+    padding: 10px 15px 10px 15px;
+    font-size: 14px;
+
+    color: red;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* translations */
+    border-radius: 75px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: solid lightgrey;
+
+}
+
+.viewButton:hover {
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    border: solid red;
+    padding: 10px 15px 10px 15px;
+
+}
+
+input[type=text], select {
+    width: 60%;
+    padding: 5px ;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 60%;
+    padding: 5px ;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}

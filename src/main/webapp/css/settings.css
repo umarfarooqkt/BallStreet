@@ -1,0 +1,72 @@
+.button1 {
+    background-color: #dddddd;
+    padding: 10px 70px;
+    font-size: 14px;
+    border: solid #dddddd;
+    color: red;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    border-radius: 25px;
+    /*border: 1px solid dimgrey; */
+}
+
+.button1:hover {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: solid red;
+    /*border: 1px solid dimgrey;*/
+
+}
+
+.profile{
+    color-overlay: red;
+}
+
+#left{
+    padding:20px;
+    width: 40%;
+    float: left;
+}
+
+#right{
+    padding:20px;
+    width: 50%;
+    float: right;
+    text-align: left;
+}
+
+
+#bottom{
+    padding:20px;
+    width: 80%;
+    float: bottom;
+}
+
+
+
+profile:hover  {
+    color: red;
+}
+
+.logout {
+    background-color: #dddddd;
+    padding: 10px;
+    font-size: 14px;
+    border: solid #dddddd;
+    color: red;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    border-radius: 25px;
+    /*border: 1px solid dimgrey; */
+}
+
+.logout:hover {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: solid red;
+    /*border: 1px solid dimgrey;*/
+
+}
+

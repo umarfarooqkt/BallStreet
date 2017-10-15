@@ -1,0 +1,70 @@
+body{
+    background-color: white;
+    font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin-bottom: auto;
+}
+
+img{
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+
+#mainTitle{
+    width:370px;
+    margin: 0 auto;
+    font-size: 80px;
+    color: orangered;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+p{
+    padding-bottom: 1%;
+    line-height: 20px;
+}
+
+#subheading{
+    width:170px;
+    margin: 0 auto;
+    font-size: 40px;
+    color: orangered;
+    padding-bottom: 1.5%;
+}
+
+.input:focus, .input:active{
+    border-color: orangered;
+}
+
+.input{
+    width: 200px;
+}
+
+.form{
+    margin: 10px auto;
+    bottom-padding: 700px;
+}
+
+
+.button.is-outlined.is-danger{
+    display: block;
+    width: 70px;
+    margin: 10px auto;
+    border-color: orangered;
+}
+
+.button.is-outlined.is-success{
+    display: block;
+    width: 70px;
+    margin: 10px auto;
+}
+
+.control{
+    display: block;
+    width: 200px;
+    margin: 0px auto;
+
+}
